@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang ="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>Fitness FREAK</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /*css Reset*/
+    body{
+
+        margin: 0px;
+        padding: opx;
+        background:url('img/download.jpg');
+
+    }
+    .left{
+        display: inline-block;
+        position:absolute;
+        left: 30px;
+        top: 20px;
+        padding: 0px;
+
+    }
+    .left img{
+        width: 115px;
+    }
+    .left dev{
+        text-align: center;
+        padding: 50px;
+        
+    }
+    .mid{
+        display: block;
+        width: 600px;
+        margin:  12px auto;
+       
+
+    }
+    .right{
+        position:absolute;
+        right: 50px;
+        top: 20px;
+        
+    } 
+    .right img{
+        width: 20px;
+    }
+    .navbar{
+    display: inline-flex;
+    
+    
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+        
+    }
+    .navbar li a{
+        color:rgb(38, 5, 5);
+        text-decoration: none ;
+        padding: 9PX 10px;
+
+    }
+    .navbar li a:hover,navbar li a:active{
+        text-decoration: underline;
+        color: rgb(78, 141, 155);
+    }
+    .container{
+       /* border: 2px solid black;*/
+        margin: 220px 227px;
+        padding: 3px 5px;
+        width: 36%;
+        border-radius: 9px;
+    }
+    .from-group input{
+        text-align: center;
+        display: block;
+        width: 356px;
+        padding: 6px;
+        border: 1px solid black;
+        margin: 5px auto;
+        border-radius: 16px;
+        
+    }
+    .container button{
+        display: block;
+        width: 19%;
+        margin: auto;
+        border-radius: 16px;
+    }
+</style>
+<body>
+<header class="header">
+    <div class="left">
+        <img src="img/logo.png" alt="">
+        <div>FITNESS FREAK</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">Classess</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact  </a></li>
+            </ul>
+    
+            </div>
+            <div class="right">
+                <img src="img/google.png">
+                <img src="img/facebook.png">
+                <img src="img/instagram.png">
+                
+            
+                </div>
+    </header>
+       <div class="container">
+        <h1>JOIN THE BEST GYM IN KOLKATA</h1>
+        <form action="noaction.php">
+        <div class="from-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="from-group">
+            <input type="text" name="" placeholder="Enter Your AGE">
+        </div>
+        <div class="from-group">
+            <input type="text" name="" placeholder="Enter Your GENDER">
+        </div>
+        <div class="from-group">
+            <input type="text" name="" placeholder="Enter Your ADDRESS">
+        </div>
+        <button class="btn">SUBMIT</button>
+        </form>
+       </div>
+       
+
+</body>
+</html>
